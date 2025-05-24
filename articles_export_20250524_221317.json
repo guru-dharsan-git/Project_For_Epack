@@ -1,0 +1,144 @@
+{
+  "export_date": "2025-05-24T22:13:17.762975",
+  "table_info": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "nullable": true
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "nullable": false
+      },
+      {
+        "name": "author",
+        "type": "TEXT",
+        "nullable": true
+      },
+      {
+        "name": "content",
+        "type": "TEXT",
+        "nullable": false
+      },
+      {
+        "name": "summary",
+        "type": "TEXT",
+        "nullable": true
+      },
+      {
+        "name": "source_url",
+        "type": "TEXT",
+        "nullable": false
+      },
+      {
+        "name": "created_at",
+        "type": "TIMESTAMP",
+        "nullable": true
+      }
+    ],
+    "total_rows": 5
+  },
+  "analysis": {
+    "content_stats": {
+      "min_length": 110,
+      "max_length": 182,
+      "avg_length": 147.8,
+      "total_articles": 5
+    },
+    "summary_stats": {
+      "total_summaries": 5,
+      "avg_summary_length": 307.0,
+      "min_summary_length": 252,
+      "max_summary_length": 416
+    },
+    "source_distribution": [
+      {
+        "source_url": "http://quotes.toscrape.com",
+        "count": 5
+      }
+    ],
+    "author_distribution": [
+      {
+        "author": "Albert Einstein",
+        "count": 2
+      },
+      {
+        "author": "Marilyn Monroe",
+        "count": 1
+      },
+      {
+        "author": "Jane Austen",
+        "count": 1
+      },
+      {
+        "author": "J.K. Rowling",
+        "count": 1
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-05-24",
+        "articles_count": 5
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": 5,
+      "title": "Quote by Marilyn Monroe",
+      "author": "Marilyn Monroe",
+      "content": "“imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.” tags: be-yourself, inspirational",
+      "summary": "This quote champions individuality and self-acceptance, suggesting that flaws and eccentricities are valuable qualities. It equates unconventionality with brilliance and encourages embracing the absurd over conformity. Ultimately, the message promotes authenticity and celebrates the unique beauty found in being true to oneself.",
+      "source_url": "http://quotes.toscrape.com",
+      "created_at": "2025-05-24 16:39:16",
+      "content_length": 144,
+      "summary_length": 329
+    },
+    {
+      "id": 4,
+      "title": "Quote by Jane Austen",
+      "author": "Jane Austen",
+      "content": "“the person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.” tags: aliteracy, books, classic, humor",
+      "summary": "This quote uses humor to express a strong opinion about reading. It suggests that a lack of appreciation for novels indicates a significant lack of intelligence. The quote implies that enjoying good literature is a sign of intellect and sophistication.",
+      "source_url": "http://quotes.toscrape.com",
+      "created_at": "2025-05-24 16:39:14",
+      "content_length": 143,
+      "summary_length": 252
+    },
+    {
+      "id": 3,
+      "title": "Quote by Albert Einstein",
+      "author": "Albert Einstein",
+      "content": "“there are only two ways to live your life. one is as though nothing is a miracle. the other is as though everything is a miracle.” tags: inspirational, life, live, miracle, miracles",
+      "summary": "The quote presents two contrasting perspectives on life: one that dismisses the extraordinary and another that embraces the miraculous nature of everything. It suggests that our perception shapes our experience, offering a choice between a mundane existence and one filled with wonder. Ultimately, the quote encourages viewers to adopt a mindset that recognizes the inherent magic and potential within everyday life.",
+      "source_url": "http://quotes.toscrape.com",
+      "created_at": "2025-05-24 16:39:13",
+      "content_length": 182,
+      "summary_length": 416
+    },
+    {
+      "id": 2,
+      "title": "Quote by J.K. Rowling",
+      "author": "J.K. Rowling",
+      "content": "“it is our choices, harry, that show what we truly are, far more than our abilities.” tags: abilities, choices",
+      "summary": "This quote emphasizes the significance of choices in defining an individual's true character. It suggests that actions and decisions reveal one's true nature more accurately than inherent skills or talents. Ultimately, the choices we make are a more profound reflection of who we are.",
+      "source_url": "http://quotes.toscrape.com",
+      "created_at": "2025-05-24 16:39:11",
+      "content_length": 110,
+      "summary_length": 284
+    },
+    {
+      "id": 1,
+      "title": "Quote by Albert Einstein",
+      "author": "Albert Einstein",
+      "content": "“the world as we have created it is a process of our thinking. it cannot be changed without changing our thinking.” tags: change, deep-thoughts, thinking, world",
+      "summary": "Our perception shapes reality, meaning the world is a direct reflection of our collective thought processes. To fundamentally alter the world, we must first transform our ways of thinking. Therefore, change begins with a shift in perspective and mindset.",
+      "source_url": "http://quotes.toscrape.com",
+      "created_at": "2025-05-24 16:39:09",
+      "content_length": 160,
+      "summary_length": 254
+    }
+  ]
+}

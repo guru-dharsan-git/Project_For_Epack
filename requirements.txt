@@ -1,0 +1,18 @@
+# Core dependencies
+aiohttp>=3.8.0
+beautifulsoup4>=4.11.0
+click>=8.1.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+google-genai>=1.16.1
+# Optional dependencies for enhanced functionality
+lxml>=4.9.0
+requests>=2.28.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Database (SQLite is built-in, but for PostgreSQL support)
+# psycopg2-binary>=2.9.0  # Uncomment for PostgreSQL support

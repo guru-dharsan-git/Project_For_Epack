@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  article-scraper:
+    build: .
+    container_name: article-scraper
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - DB_URL=sqlite:///data/articles.db
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: python main.py scrape --source quotes --limit 5
+    restart: unless-stopped
+
+  # Optional: PostgreSQL database service
+  postgres:
+    image: postgres:15-alpine
+    container_name: article-scraper-db
+    environment:
+      POSTGRES_DB: articles_db
+      POSTGRES_USER: scraper
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-scraper123}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
