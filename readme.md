@@ -136,17 +136,12 @@ The application provides multiple ways to view and analyze your scraped data:
 2. **Search Articles**:
    ```bash
    # Search across all fields
-   python main.py search-db "technology"
+   python db_viewer.py search "keyword"
    
    # Get specific article
    python main.py get-summary 1
    ```
 
-3. **Database Statistics**:
-   ```bash
-   # Comprehensive statistics
-   python main.py db-stats
-   ```
 
 ### Advanced Database Viewer
 
