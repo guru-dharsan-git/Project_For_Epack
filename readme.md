@@ -84,20 +84,6 @@ python main.py view-db --full
 python main.py view-db --limit 5
 ```
 
-#### Search Articles
-```bash
-# Search articles by any field
-python main.py search-db "Einstein"
-
-# Search in database
-python main.py search-db "technology"
-```
-
-#### Database Statistics
-```bash
-# Show detailed database statistics
-python main.py db-stats
-```
 
 #### Advanced Database Viewer
 ```bash
